@@ -1,0 +1,25 @@
+body{
+  padding: 20px;
+  max-width: 1000px;
+
+
+}
+h1{
+  text-shadow: 3px -5px 0px #999;
+}
+p{
+  line-height: 2em;
+  text-indent: 20px;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+h2::first-letter{
+font-size: 40px;
+font-weight: bolder;
+}
+ol{
+  list-style-type: lower-alpha;
+  list-style-position: inherit;
+
+}

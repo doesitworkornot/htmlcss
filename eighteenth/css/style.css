@@ -1,0 +1,9 @@
+body{
+  padding: 30px;
+  background-image: radial-gradient(circle at 0% 50%, rgb(30, 142, 9), rgb(76, 201, 228));
+}
+p{
+  background-image: linear-gradient(red, transparent),
+                    linear-gradient(100deg, rgb(191, 96, 182), transparent),
+                    linear-gradient(220deg, rgb(81, 73, 171), transparent);
+}

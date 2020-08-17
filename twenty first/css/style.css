@@ -1,0 +1,66 @@
+body{
+  background-color: rgb(60, 38, 54);
+  font-family: 'Montserrat', sans-serif;
+  width: 60%;
+  margin: 0 auto;
+  color: white;
+}
+
+h1{
+  font-size: 2em;
+  border-left: 4px solid white;
+  margin: 30px;
+}
+
+p{
+  margin-bottom: 30px;
+}
+
+.subform{
+  font-size: 1.1em;
+}
+
+.subform label{
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  text-align: left;
+}
+
+.subform input[type="submit"]{
+  margin-left: 252px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: rgb(60, 38, 54);
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+  transition-duration: 1s;
+  transition-property: all;
+}
+
+.subform input[type="submit"]:hover{
+  transform: rotate(4deg);
+  transform-origin: right;
+  background:rgb(251, 216, 246);
+  border: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+label.radio{
+  width: 110px;
+  margin-left: 110px;
+}
+
+.subform input[type="text"], .subform textarea, .subform input[type="email"]{
+  border-radius: 4px;
+  border: none;
+  color: rgb(60, 38, 54);
+  padding: 7px;
+  width: 50%;
+}
+
+.subform input[type="text"]:focus, .subform textarea:focus, .subform input[type="email"]:focus{
+  background: rgb(251, 216, 246);
+}

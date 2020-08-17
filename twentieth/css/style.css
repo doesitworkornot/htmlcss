@@ -1,0 +1,38 @@
+body{
+  font-family: 'Roboto Mono', monospace;
+  background-image: url(../img/image-19.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p.test1{
+  box-sizing: border-box;
+  padding: 20px;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.37);
+}
+p.test2{
+  box-sizing: border-box;
+  padding: 20px;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.37);
+  border-radius: 4px;
+}
+a.button{
+   padding: 10px;
+   background: rgb(255, 222, 203);
+   border-radius: 3px;
+   border: 1px solid rgb(255, 220, 194);
+   text-decoration: none;
+   transform: scale(1) rotate(0deg);
+   color: rgb(2, 27, 12);
+   display: inline-block;
+   transition-property: background, transform;
+   transition-duration: 1s;
+   transition-delay: 1s;
+}
+a.button:hover{
+
+  transform:  rotate(4deg);
+  transform-origin: left;
+  background: rgb(252, 204, 177);
+}

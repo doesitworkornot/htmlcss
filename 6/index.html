@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href=css/style.css">
+  <title>Flexbox</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="Container">
+    <header>
+      <h1>Some title</h1>
+    </header>
+
+    <nav>
+      <ul class="NavBar">
+        <li><a href="/">Home Page</a></li>
+        <li><a href="/">I dont get it</a></li>
+        <li><a href="/">Sure</a></li>
+        <li><a href="/">There is?</a></li>
+      </ul>
+    </nav>
+
+    <main class="Flex">
+      <div class="ColumnMain Tile">
+        <h2>Some subtitle</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="ColumnSideBar">
+        <div class="Tile">
+          <form class="LoginForm">
+            <h3>Login</h3>
+            <p>
+              <label for="username">Username</label>
+              <input type="text" id="username" name="username" value="">
+            </p>
+            <p>
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" value="">
+            </p>
+            <button type="submit" name="login">Login</button>
+          </form>
+        </div>
+        <div class="Tile Center">
+          <small>Starts in</small>
+          <div class="Cost">
+            <span class="CostCurrency">$</span>
+            <span class="CostDollars">999</span>
+            <span class="CostCents">99</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

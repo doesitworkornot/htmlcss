@@ -1,0 +1,45 @@
+:root{
+  font-family: 'Cairo', sans-serif;
+}
+
+body{
+  background: rgb(245, 240, 251);
+}
+
+.Container{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.NavBar{
+  display: flex;
+  background: black;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.NavBar > li > a{
+  background: black;
+  color: rgb(255, 245, 255);
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  padding: 1em 1.7em;
+  margin: 0 3em;
+}
+
+.Tile{
+  padding: 1.5em;
+}
+
+.Flex{
+  display: flex;
+}
+
+.ColumnMain{
+  flex: 3;
+}
+
+.ColumnSideBar{
+  flex: 1;
+}

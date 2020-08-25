@@ -34,6 +34,7 @@ body{
 
 .Flex{
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .ColumnMain{
@@ -42,4 +43,13 @@ body{
 
 .ColumnSideBar{
   flex: 1;
+}
+
+.Submit{
+  font-size: 1.1em;
+  color: rgb(240, 231, 255);
+  background: black;
+  border: none;
+  border-radius: 3px;
+  padding: .4em 1em;
 }

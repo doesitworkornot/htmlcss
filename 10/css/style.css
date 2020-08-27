@@ -1,0 +1,21 @@
+.flex{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 3fr);
+  grid-gap: 2em;
+}
+.flex > div{
+  background: rgb(7, 118, 198);
+  padding: 2em;
+  border-radius: 1em;
+}
+.b1{
+  grid-column: 1/2;
+  grid-row: 1/5;
+}
+.b2{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}

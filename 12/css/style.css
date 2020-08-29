@@ -1,0 +1,34 @@
+body{
+  background: rgb(29, 29, 29);
+  font-family: 'Roboto', sans-serif;
+}
+.main{
+  width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-flow: dense;
+}
+.main figure{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.main img{
+  max-width: 100%;
+  flex: 1;
+  object-fit: cover;
+}
+figcaption{
+  padding: 0.5em 1em;
+  background: rgb(19, 22, 10);
+  color: white;
+  text-align: right;
+}
+.main .huge{
+  grid-row: span 2;
+  grid-column: span 2;
+}
+.main .big{
+  grid-column: span 2;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <button type="submit" id="open" name="button">Login</button>
+    </nav>
+  </header>
+  <div class="modal" id="modal">
+    <div class="modalbody">
+      <button class="modalclose" id="close">close</button>
+      <h3>Ara Ara</h3>
+      <form action="">
+        <p>
+          <label for="email">Email</label>
+          <input type="email" name="email" value="">
+        </p>
+        <p>
+          <label for="pass">Password</label>
+          <input type="password" name="pass" value="">
+        </p>
+        <p>
+          <button type="submit" name="button">Login</button>
+        </p>
+      </form>
+    </div>
+  </div>
+<!-- ПРОСТИТЕ МЕНЯ ПОЖАЛУСТА ЗА ЖАВАСКРИПТ, Я НЕ ХОТЕЛ, НАДО ПРОСТО ЧТОБЫ РАБОТАЛО, Я НЕ ХОТЕЛ, ОНО САМО, Я СКОПИРОВАЛ, Я НЕ ХОТЕЛ, ПРОСТИТЕ -->
+  <script type="text/javascript">
+    var button = document.getElementById('open');
+    var close = document.getElementById('close');
+    var modal = document.getElementById('modal');
+
+    button.addEventListener('click', function(event){
+      event.preventDefault();
+      modal.style.display = 'block';
+    });
+    close.addEventListener('click', function(event){
+      event.preventDefault();
+      modal.style.display = 'none';
+    });
+  </script>
+</body>
+</html>

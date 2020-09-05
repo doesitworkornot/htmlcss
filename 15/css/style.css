@@ -68,13 +68,26 @@ a:active{
 }
 .menu-dropdown{
   display: none;
-  position: relative;
+  position: absolute;
   right: 0;
   left: 0;
   margin: 0;
 }
 .menu.is-open > .menu-dropdown{
   display: block;
+}
+.nav-menu{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom left, black, #10377e);
+}
+.nav-menu > li{
+    border: 1px solid white;
+}
+.nav-menu > li > a{
+  color: white;
+  display: block;
+  padding: .7em 1em;
 }
 
 
@@ -98,4 +111,16 @@ main{
   margin-bottom: 1.2em;
   font-size: 0.8em;
   text-transform: uppercase;
+}
+
+
+/***************MEDIA*************/
+@media (min-width: 560px){
+  .menu-toggle{
+    display: none;
+  }
+  .menu-dropdown{
+    display: block;
+    position: static;
+  }
 }

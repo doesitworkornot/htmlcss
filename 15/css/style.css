@@ -1,0 +1,101 @@
+/***************GLOBAL*************/
+:root{
+  box-sizing: border-box;
+  font-size: calc(1vw + .6em);
+}
+body{
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/***************LINKS*************/
+a:link{
+  color: #1476bb;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:visited{
+  color: rgb(86, 98, 162);
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active{
+  color: rgb(85, 60, 157);
+}
+
+
+/***************HEADER*************/
+.title > h1{
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: .2em 0;
+}
+.slogan{
+  color: grey;
+  font-size: .8em;
+  margin: 0;
+}
+
+
+/***************NAV*************/
+.menu{
+  position: relative;
+}
+.menu-toggle{
+  position: absolute;
+  top: -.8em;
+  right: .5em;
+  border: 0;
+  background-color: transparent;
+  font-size: 3em;
+  width: 1em;
+  height: 1em;
+  line-height: 0.3em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 5em;
+  cursor: pointer;
+}
+.menu-toggle::after{
+  position: absolute;
+  top: .2em;
+  left: .1em;
+  display: block;
+  content: "\2261";
+  text-indent: 0;
+}
+.menu-dropdown{
+  display: none;
+  position: relative;
+  right: 0;
+  left: 0;
+  margin: 0;
+}
+.menu.is-open > .menu-dropdown{
+  display: block;
+}
+
+
+/***************ASIDE*************/
+.hero{
+  padding: 2em 1.5em;
+  color: white;
+  text-align: center;
+  background: url(../img/s1200.png);
+  background-size: 100%;
+  text-shadow: 0.1em .1em .2em black;
+}
+
+
+/***************MAIN*************/
+main{
+  padding: 1.2em;
+}
+.subtitle{
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}

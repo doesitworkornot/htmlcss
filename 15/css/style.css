@@ -123,4 +123,29 @@ main{
     display: block;
     position: static;
   }
+  .nav-menu{
+    display: flex;
+    border: 0;
+    padding: 0 1em;
+    background: rgb(33, 44, 73);
+    list-style-type: none;
+  }
+  .nav-menu > li{
+    border: 0;
+    flex: 1;
+  }
+  .nav-menu > li > a{
+    text-align: center;
+    padding: .3em;
+  }
+  .row{
+    display: flex;
+    margin-left: -.75em;
+    margin-right: -.75em;
+  }
+  .column{
+    flex: 1;
+    margin-left: .75em;
+    margin-right: .75em;
+  }
 }

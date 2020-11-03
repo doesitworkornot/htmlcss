@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.png">
+  <title>Wombat Coffee Roasters</title>
+</head>
+<body>
+  <header class="snap">
+    <div class="title">
+      <h1>WOMBAT COFFEE ROASTERS</h1>
+    </div>
+    <div class="slogan">We love coffee</div>
+  </header>
+
+  <nav class="menu snap" id="main-menu">
+    <button class="menu-toggle" id="toggle-menu">Close</button>
+    <div class="menu-dropdown">
+      <ul class="nav-menu">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Menu</a></li><!--Ваня красавчик. Держу в курсе-->
+        <li><a href="#">Brew</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="snap">
+    <div class="hero snap" data-parallax="scroll" data-image-src="img/s1200.png" data-speed="0.1" data-iosFix="false" data-androidFix="false"> Welkome to Wombat Coffe Roasters! We are passionate about our craft, striving to bring you the best hand-crafted coffee in the city.</div>
+    <div class="main row snap">
+      <div class="colum">
+        <h2 class="subtitle">Single-origin</h2>
+        <p>We have built parthnerships with small farms around the world to hand-select beans at the peak of season. We then carefully roast in <a href="#">small batches</a> to maximize their potential.</p>
+      </div>
+      <div class="colum">
+        <h2 class="subtitle">Blends</h2>
+        <p>Our tasters have put together a selection of carefully balanced blends. Our famous <a href="#">house blend</a> is availableyear round.</p>
+      </div>
+      <div class="colum">
+        <h2 class="subtitle">Brewing Equipment</h2>
+        <p>We offer our favorite kettles, French presses, and pour-over cones. Come to one of our <a href="#">brewing classes</a> to learn  how to brew the perfect pour-over cup.</p>
+      </div>
+    </div>
+    <div class="main snap">
+      <img class="center" src="img/coffee_image.jpg" width="75%" height="auto">
+    </div>
+    </main>
+  <script type="text/javascript">
+    (function(){
+      var button = document.getElementById('toggle-menu');
+      button.addEventListener('click', function(event){
+      event.preventDefault();
+      var menu = document.getElementById('main-menu');
+      menu.classList.toggle('is-open');
+      });
+      })();
+    </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> <!--jQuery library-->
+  <script src="js/parallax.min.js"></script><!--Parallax code-->
+</body>
+</html>
